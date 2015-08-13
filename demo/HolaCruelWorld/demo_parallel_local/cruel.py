@@ -10,13 +10,13 @@ def cruel(run_number):
         ofp.write(outmsg)
 
     # write some stuff to the screen as well just for fun
-    print 'Hi there, from number {0}\n'.format(run_number)
-    print 'Waiting for 5 long seconds'
+    print ('Hi there, from number {0}\n'.format(run_number))
+    print ('Waiting for 5 long seconds')
     for i in range(5):
-        sys.stdout.write('.')
+        sys.stdout.write(u'.')
         sys.stdout.flush()
         time.sleep(1)
-    print '\n'
+    print ('\n')
     return outmsg
     
 if __name__ == '__main__':

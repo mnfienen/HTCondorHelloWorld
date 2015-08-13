@@ -15,5 +15,5 @@ results = pool.map(cruel, args)
 # now write out the results to a file
 with open('alldata.dat', 'w') as ofp:
     for cresult in results:
-	ofp.write('{0}\n'.format(cresult))
+    	ofp.write('{0}\n'.format(cresult))
 

@@ -26,4 +26,4 @@ with open('alldata.dat', 'w') as ofp:
             for line in ifp.readlines():
                 ofp.write('{0}\n'.format(line))
         except:
-            print 'Warning! Could not find outfile{0}.dat'.format(i)
+            print ('Warning! Could not find outfile{0}.dat'.format(i))
