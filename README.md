@@ -14,8 +14,8 @@ This demo was developed for the 2015 Rocky Mountain Advanced Computing Consortiu
 ## PESTPP
 The benchmark iterative ensemble smoother (iES) test case from "Approaches to Highly Parameterized Inversion: PEST++ Version 5, a Software Suite for Parameter Estimation, Uncertainty Analysis, Management Optimization and Sensitivity Analysis" report by White and others (2020).
 
-This version uses 50 workers and starts the master on port 9701. If that port is not open through the firewall on the central manager machine, this will not work.
+This version uses 150 workers and starts the master on port 9701. If that port is not open through the firewall on the central manager machine, this will not work.
 
 Important note: user must update `worker.sh` replacing the string `<<update_cm_IP>>` with the IP address or computer name where the MASTER is running.
 
-To run the example, first execute the `launch_master.sh` script. Then launch workers as `condor_submit launch_workers.sub`.
+To run the example, first execute the `launch_master.sh` script. Then in another window launch workers as `condor_submit launch_workers.sub`.
