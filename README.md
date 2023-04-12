@@ -1,7 +1,7 @@
 # HTCondorHelloWorld
 Hello world trivial toy examples for working with HTCondor on Linux
 
-## HoladCruelWorld
+## Hola CruelWorld
 
 The HolaCruelWorld example uses a simple Python script to demonstrate a general HTCondor submit file. Of course, the intent is that the trivial example be replaced with meaningful work!
 
