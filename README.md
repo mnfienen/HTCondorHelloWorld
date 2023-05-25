@@ -19,3 +19,6 @@ This version uses 150 workers and starts the master on port 9701. If that port i
 Important note: user must update `worker.sh` replacing the string `<<update_cm_IP>>` with the IP address or computer name where the MASTER is running.
 
 To run the example, first execute the `launch_master.sh` script. Then in another window launch workers as `condor_submit launch_workers.sub`.
+
+## timeout_test
+This simple test increments the wait time for each worker to make variable timing to test scaledown of a cluster in which HTCondor idle time is used to scale down a cluster.
